@@ -1,0 +1,19 @@
+# Python
+*.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.venv/
+.env/
+venv/
+ENV/
+
+# Django
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+media/
+
+# IDEs 
+.vscode/ # VS Code

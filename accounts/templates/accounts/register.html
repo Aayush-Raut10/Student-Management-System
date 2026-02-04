@@ -9,6 +9,14 @@
 <body>
     <h1>Register</h1>
 
+    {% if errors %} 
+        {% for err in errors %}
+            <p style="color:red">{{ err}}</p>
+        {% endfor %}    
+    {% endif %}
+
+ 
+
     <form method="POST">
         {% csrf_token %}
 
